@@ -18,6 +18,19 @@ Example
 
     $("#slide_bar").nancharaSlider();
 
+### CSS ######
+
+    #slide_bar {
+      background-color: #ddd;
+      height: 30px;
+      width: 320px;
+    }
+    #slide_bar .ns_content {
+      line-height: 30px;
+      text-align: center;
+      width: 320px;
+    }
+
 Options
 ---------------------
 
