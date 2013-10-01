@@ -20,7 +20,7 @@
     }
 
     base.calcDistanceAndMaxSpeed = function(width) {
-      while(distance < width) {
+      while (distance < width) {
         maxSpeed += opts.accel;
         distance += maxSpeed;
       }
@@ -30,14 +30,14 @@
       var currentContent = contents[slideIndex];
       var left = parseInt(currentContent.style.left) || 0;
       var interval = opts.animationInterval;
-      if(left > opts.accel) {
+      if (left > opts.accel) {
         base.moveContent(currentContent, left - speed);
         speed -= opts.accel;
-      } else if(left == opts.accel) {
+      } else if (left == opts.accel) {
         interval = opts.remainTime;
         speed = 0;
         base.moveContent(currentContent, 0);
-      } else if(left - speed <= -distance) {
+      } else if (left - speed <= -distance) {
         interval = opts.nextTime;
         base.resetContent(currentContent);
         base.switchSlideIndex();
