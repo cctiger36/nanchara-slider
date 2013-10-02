@@ -1,0 +1,12 @@
+#slide_bar {
+  background-color: #e2e2e2;
+  height: 30px;
+  width: 270px;
+  margin-bottom: 30px;
+}
+#slide_bar .ns_content {
+  line-height: 30px;
+  text-align: center;
+  width: 270px;
+  font-weight: bold;
+}
