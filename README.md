@@ -51,4 +51,4 @@ Options
 
 Demo
 ---------------------
-[Live demo here](http://jsfiddle.net/cctiger36/wQuup/)
+[Live demo here](http://cctiger36.github.io/nanchara-slider)
